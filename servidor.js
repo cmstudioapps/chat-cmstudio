@@ -82,6 +82,7 @@ let msg = document.getElementById("msg").value
 set (Ref, msg)
 .then(() => {
    
+msg.value = ""
    console.log("Enviado")
 })
      
