@@ -1,0 +1,61 @@
+      
+      * {
+   
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+
+body {
+   
+   background-color: #9513FF;
+   color: white;
+   font-weight: bold;
+   text-align: center;
+   
+}
+
+div {
+   
+   background-color: #3600FF;
+   height: 30vh;
+   margin: 10px;
+   padding: 10px;
+   border-radius: 20px;
+   box-shadow: 4px 8px 13px black;
+   overflow-y: auto;
+   overflow-x: hidden;
+}
+
+input {
+   
+   background-color: lightcyan;
+   color: black;
+   font-weight: bold;
+   padding: 2vh;
+   border: none;
+   border-radius: 20px;
+   outline: none;
+   
+}
+
+button {
+   
+   background-color: greenyellow;
+   color: black;
+   font-weight: bold;
+   padding: 2vh;
+   border: none;
+   border-radius: 20px;
+   
+}
+
+hr {
+   
+   margin-top: 2vh;
+   margin-bottom: 2vh;
+   
+}
+      
+      
