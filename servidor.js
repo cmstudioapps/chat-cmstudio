@@ -32,6 +32,21 @@ setInterval(()=> {
    }
    chat.innerHTML = ms
    
+   
+   if (ms.length > 200) {
+      
+      
+      fetch("https://testando-77ab6-default-rtdb.firebaseio.com/.json", {
+         
+         method: "DELETE"
+         
+      })
+      .then(response => {
+         
+         alert("O chat foi esvaziado por excesso de Mensagens!")
+         
+      } )
+   }
 
    }
 
